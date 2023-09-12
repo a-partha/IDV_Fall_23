@@ -1,109 +1,109 @@
 html {
-    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
-    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
-    background-color: #9dc6ec;
-  }
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  background-color: #9dc6ec;
+}
 
-  body {
-    width: 1000px;
-    margin: auto auto auto auto;
-    background-color: #e2242497;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
-  
-
-  h1 {
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: #db0000bb;
-    text-shadow: 2px 0px 1px rgb(0, 0, 0);
-  }
-      
+body {
+  width: 1000px;
+  margin: auto auto auto auto;
+  background-color: #e2242497;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
 
 
-  p {
-    font-size: 12.5px;
-    line-height: 1.25;
-    letter-spacing: 1px;
-  }
-
-
-  .Permanent {
-    border-collapse: collapse;
-    border: 2px solid rgb(0, 0, 0);
-    letter-spacing: 1px;
-    font-size: 1rem;
-    margin-right: auto; margin-left: auto;
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #db0000bb;
+  text-shadow: 2px 0px 1px rgb(0, 0, 0);
+}
     
-  }
-  
-  .Permanent caption {
-    padding: 10px;
-    font-size: 1.3rem;
-    font-weight: bold;
-
-  }
-
-  .Permanent td, th {
-    border: 1px solid rgb(0, 0, 0);
-    padding: 10px 20px;
-  }
-  
-  .Permanent th {
-    background-color:#fe5d0094;
-    
-  }
-  
-  .Permanent td {
-    text-align: center;
-  }
-  
-  .Permanent tr:nth-child(even) td {
-    background-color: #e9c087;
-  }
-  
-  .Permanent tr:nth-child(odd) td {
-    background-color: #e9c087;
-  }
 
 
-  .Loan {
-    border-collapse: collapse;
-    border: 2px solid rgb(0, 0, 0);
-    letter-spacing: 1px;
-    font-size: 1rem;
-    margin-right: auto; margin-left: auto;
-    
-  }
+p {
+  font-size: 12.5px;
+  line-height: 1.25;
+  letter-spacing: 1px;
+}
 
-  .Loan caption {
-    padding: 10px;
-    font-size: 1.3rem;
-    font-weight: bold;
 
-  }
+.Permanent {
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-size: 1rem;
+  margin-right: auto; margin-left: auto;
   
-  .Loan td, th {
-    border: 1px solid rgb(0, 0, 0);
-    padding: 10px 20px;
-  }
+}
+
+.Permanent caption {
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+.Permanent td, th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px 20px;
+}
+
+.Permanent th {
+  background-color:#fe5d0094;
   
-  .Loan th {
-    background-color:#fe5d0094;
-    
-  }
+}
+
+.Permanent td {
+  text-align: center;
+}
+
+.Permanent tr:nth-child(even) td {
+  background-color: #e9c087;
+}
+
+.Permanent tr:nth-child(odd) td {
+  background-color: #e9c087;
+}
+
+
+.Loan {
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-size: 1rem;
+  margin-right: auto; margin-left: auto;
   
-  .Loan td {
-    text-align: center;
-  }
+}
+
+.Loan caption {
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+.Loan td, th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px 20px;
+}
+
+.Loan th {
+  background-color:#fe5d0094;
   
-  .Loan tr:nth-child(even) td {
-    background-color: #e9c087;
-  }
-  
-  .Loan tr:nth-child(odd) td {
-    background-color: #e9c087;
-  }
+}
+
+.Loan td {
+  text-align: center;
+}
+
+.Loan tr:nth-child(even) td {
+  background-color: #e9c087;
+}
+
+.Loan tr:nth-child(odd) td {
+  background-color: #e9c087;
+}
