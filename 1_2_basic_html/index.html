@@ -1,19 +1,81 @@
-
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Interactive Data Visualization Tutorial</title>
+  <title>MUFC News</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <h3>Section 1 | Tutorial 2 | Basic HTML</h3>
+  <h1>Manchester United Football Club</h1>
+  <h2>News:</h2>
+  <p>The following players have joined the club during the summer of 2023:</p>
   <table>
     <!-- Add your table data here -->
+    <caption>
+        Transfers-Ins | Summer Window | Permanent
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>From</th>
+        <th>Position</th>
+      </tr>
+      <tr>
+        <td>Rasmus Hojlund</td>
+        <td>Atalanta</td>
+        <td>Forward</td>
+      </tr>
+      <tr>
+        <td>Jonny Evans</td>
+        <td>Free Agent</td>
+        <td>Defender</td>
+      </tr>
+      <tr>
+        <td>Altay Bayindir</td>
+        <td>Fenerbahce</td>
+        <td>Goalkeeper</td>
+      </tr>
+      <tr>
+        <td>Andre Onana</td>
+        <td>Inter Milan</td>
+        <td>Goalkeeper</td>
+      </tr>
+      <tr>
+        <td>Mason Mount</td>
+        <td>Chelsea</td>
+        <td>Midfielder</td>
+      </tr>
+    </table>
+  
+    <br></br>
+  
+   <table class="Loan" title="Loan">
+      <caption>
+        Transfers-Ins | Summer Window | Loan
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>From</th>
+        <th>Position</th>
+      </tr>
+      <tr>
+        <td>Sofyan Amrabat</td>
+        <td>Fiorentina</td>
+        <td>Midfielder</td>
+      </tr>
+      <tr>
+        <td>Sergio Reguilon</td>
+        <td>Tottenham Hotspur</td>
+        <td>Defender</td>
+      </tr>
   </table>
-  <svg>
+  <svg viewBox="0 0 700 150" xmlns="http://www.w3.org/2000/svg">
     <!-- Add your rectangles in here -->
+    <defs>
+      <pattern id="img1" patternUnits="userSpaceOnUse" width="200" height="200">
+        <image href="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png" alt="MUFC logo" class="pict" x="90" y="20" width="100" height="100"/>
+      </pattern>
+    </defs>
+    <rect x="285" y="15" width="110" height="110" fill="url(#img1)" stroke="maroon" />
   </svg>
 </body>
 </html>
