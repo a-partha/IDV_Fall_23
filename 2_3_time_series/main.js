@@ -69,8 +69,8 @@ const areaGen = d3.area()
 svg.append("path")
     .datum(data)
     .attr("d", areaGen)
-    .attr("fill", "purple")
-    .attr("fill-opacity", .5)
+    .attr("fill", "green")
+    .attr("fill-opacity",0.4)
     .attr("stroke", "none")
     
 //AXES LABELS
@@ -90,7 +90,7 @@ svg.append("text")
     .attr("x", margin.top - 220)
     .style("font-size", "20px")
     .text("Number of stages won")
-    
+
 //TITLE
 svg.append("text")
     .attr("class", "title")
